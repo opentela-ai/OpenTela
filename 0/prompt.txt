@@ -1,0 +1,7 @@
+Can you ssh beverin, and run:  curl http://148.187.108.178:8092/v1/dnt/table | jq . | grep "omlins/deepseek-ai/DeepSeek-V4-Flash".
+
+It seems there is this omlins model, but the associated job is actually gone (and I cannot send requests to it). Help me investigate what happened
+
+---
+
+yes let's apply the above fixes

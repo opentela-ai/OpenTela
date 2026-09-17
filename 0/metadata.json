@@ -1,0 +1,84 @@
+{
+  "cli_version": "0.10.3",
+  "checkpoint_id": "01M2QP1BFHS7S7NKXDD1HYCQKW",
+  "session_id": "01a0af30-b3bc-75bb-b825-8cf87ff9b290",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-17T12:39:04.316983447Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "save_step_count": 2,
+  "files_touched": [
+    "src/internal/protocol/liveness.go",
+    "src/internal/protocol/liveness_test.go",
+    "src/internal/protocol/node_table.go",
+    "src/internal/protocol/node_table_test.go",
+    "src/internal/protocol/sweep.go",
+    "src/internal/protocol/sweep_test.go",
+    "src/internal/server/crdt_handler.go",
+    "src/internal/server/crdt_handler_test.go",
+    "src/internal/server/openapi.yaml"
+  ],
+  "agent": "Pi",
+  "model": "glm-5.3",
+  "turn_id": "ba5d8151e16b",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 208175,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 6595200,
+    "output_tokens": 58061,
+    "api_call_count": 94
+  },
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-17T12:39:04.266076995Z",
+    "agent_lines": 406,
+    "agent_removed": 64,
+    "human_added": 0,
+    "human_modified": 1,
+    "human_removed": 0,
+    "total_committed": 407,
+    "total_lines_changed": 471,
+    "agent_percentage": 99.78768577494692,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 393,
+      "user_lines_removed": 3,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "docs/content/docs/tutorial/routing.mdx": 35,
+        "src/entry/cmd/root.go": 9,
+        "src/internal/server/affinity.go": 152,
+        "src/internal/server/affinity_test.go": 158,
+        "src/internal/server/cors.go": 1,
+        "src/internal/server/cors_test.go": 1,
+        "src/internal/server/proxy_handler.go": 37
+      },
+      "user_removed_per_file": {
+        "docs/content/docs/tutorial/routing.mdx": 1,
+        "src/internal/server/cors.go": 1,
+        "src/internal/server/cors_test.go": 1
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 393,
+      "agent_lines_removed": 3
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 800,
+      "agent_lines_removed": 67
+    }
+  ]
+}
