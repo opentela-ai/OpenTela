@@ -1,0 +1,48 @@
+Help me login with kubectl: kubectl oidc-login setup --oidc-issuer-url=https://dex.breithorn.svc.cscs.ch --oidc-client-id=kubernetes --oidc-client-secret=REDACTED --oidc-extra-scope=email,profile,groups
+
+and read logs from the cluster
+
+---
+
+I approved, and redirected to https://dex.breithorn.svc.cscs.ch/auth/github?client_id=kubernetes&client_secret=REDACTED&redirect_uri=%2Fdevice%2Fcallback&response_type=code&scope=openid+email+profile+groups+offline_access&state=CBDB-LTJR
+
+---
+
+I got Bad Request
+Unregistered redirect_uri ("/device/callback").
+
+---
+
+http://localhost:8000/?code=nx3rwf5m7ymzhkluhr2zvkskm&REDACTED%60%60%60
+
+---
+
+I have two pods: sglang-glm-47-flash and vllm-qwen35-27b that failed to connect to the head OpenTela nodes. Help me diagnose why
+
+---
+
+which head nodes they connected to?
+
+---
+
+Can you help me check?
+
+---
+
+.172 is in another pod called otela-prod
+
+---
+
+continue
+
+---
+
+ok can you restart the head and try again?
+
+---
+
+there should be a serving-otela-dev, can we check if it is there?
+
+---
+
+I actually do not know where is 148.187.108.172, it must be somewhere on the kubernetes. Can we check?
